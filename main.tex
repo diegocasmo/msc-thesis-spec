@@ -1,14 +1,34 @@
 \documentclass{article}
 \usepackage[utf8]{inputenc}
+\input{macros}
 
-\title{ms-thesis-spec}
-\author{diegocasmo }
-\date{November 2018}
+\title{
+  \textbf{
+    \todo{Thesis Title}
+  } \\
+  Project Plan \\
+  Master's Thesis in Computer Science
+}
+
+\author{Diego Castillo \and Kristiaan Pelckmans}
+
+\date{\today}
 
 \begin{document}
 
+% Document's title
 \maketitle
+\newpage
 
-\section{Introduction}
+% Document's table of contents
+\tableofcontents
+\newpage
+
+% Document's sections
+\input{sections/background.tex}
+\input{sections/description.tex}
+\input{sections/approach.tex}
+\input{sections/delimitation.tex}
+\input{sections/timeline.tex}
 
 \end{document}
