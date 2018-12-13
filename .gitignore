@@ -371,3 +371,6 @@ $RECYCLE.BIN/
 
 # Ignore spec example
 example.pdf
+
+# Ignore all application forms
+/forms/*
